@@ -1,0 +1,49 @@
+/* font */
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&family=Work+Sans&display=swap");
+
+/* utility */
+body {
+  background-color: #f3f1ff;
+  font-family: "Poppins", sans-serif;
+}
+.container {
+  background-color: #ffffff;
+  width: 870px;
+  padding: 30px;
+}
+main {
+  display: flex;
+  justify-content: center;
+}
+.headline {
+  font-weight: 500;
+  font-size: 24px;
+  color: #562EFF;
+  margin-top: 0px;
+}
+hr{
+    border: 1px solid #D1D1D1;
+}
+/* utility end */
+
+.top-players{
+    margin-bottom: 30px;
+}
+
+.players {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 30px;
+}
+.player {
+  display: flex;
+  color: black;
+  gap: 16px;
+  
+
+  align-items: center;
+}
+.player img {
+  width: 56px;
+  height: 56px;
+}
