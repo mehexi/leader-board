@@ -146,6 +146,9 @@ hr {
 }
 
 @media only screen and (max-width: 1000px) {
+  .body{
+    padding: 0px 200px;
+  }
   .container {
     width: 100%;
   }
