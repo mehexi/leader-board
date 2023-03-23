@@ -2,6 +2,24 @@
 @import url("https://fonts.googleapis.com/css2?family=Lobster&family=Poppins:wght@500&family=Work+Sans&display=swap");
 
 /* utility */
+
+.logo {
+  display: flex;
+  gap: 15px;
+}
+.menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.logo img {
+  width: 40px;
+  height: 50px;
+}
+.logo h1 {
+  font-weight: 500;
+  font-size: 24px;
+}
 h1 {
   margin: 0px;
 }
@@ -125,4 +143,30 @@ hr {
 }
 .course-time p {
   margin: 0;
+}
+
+@media only screen and (max-width: 400px) {
+  .container {
+    width: 100%;
+  }
+  .players {
+    
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  
+  .blog-info {
+    grid-template-columns: repeat(1, 1fr);
+  }
+  .course{
+    grid-template-columns: repeat(1,1fr);
+  }
+  .course-info{
+    display: flex;
+    gap: 20px;
+    
+  }
+  .course-info img {
+    height: auto;
+  }
 }
